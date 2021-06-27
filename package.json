@@ -1,0 +1,42 @@
+{
+  "name": "git-like-vcs",
+  "version": "1.0.0",
+  "description": "A simple Local Version Control System like git",
+  "main": "index.js",
+  "bin": {
+    "mygit": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashSaxena9/git-like-VCS.git"
+  },
+  "keywords": [
+    "VCS",
+    "git",
+    "local-version-control-system",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Yash Saxena <yashsaxena962000@gmail.com> (https://yashsaxena9.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YashSaxena9/git-like-VCS/issues"
+  },
+  "homepage": "https://github.com/YashSaxena9/git-like-VCS#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "fs": "*",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
